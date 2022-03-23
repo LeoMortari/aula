@@ -1,0 +1,27 @@
+#helloWord {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+}
+
+div {
+  justify-content: center;
+  position: relative;
+  border-radius: 3px;
+  display: flex;
+  width: 300px;
+  color: aliceblue;
+  height: 80px;
+  background-color: blueviolet;
+  transition: background-color 1s, color 1s, height 2s;
+}
+
+div:hover {
+  background-color: orchid;
+  color: black;
+  height: 120px;
+}
